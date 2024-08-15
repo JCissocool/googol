@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <head>
+        <title>Chromuim</title>
+        <link rel='stylesheet' src='style.css'></link>
+        <script src='script.js'></script>
+    </head>
+    <body>
+        <div id="topbar">
+            <b style="float: left;" class="logo"></b>
+            <a class="link" style="float: right;" href="https://connect.det.wa.edu">Connect</a>
+            <a class="link" style="float: right;" href="https://outlook.office.com/mail/">Outlook</a>
+            <a class="link" style="float: right;" href="https://dmoj.ca">Dmoj</a>
+        </div>
+        <div id="main">
+            <div style="font-size: 100px;" id="main_logo" class="logo"></div>
+            <div id="logo_buttons">
+                <button class="logo_change" onclick="prevlogo()">&lt;-</button>
+                <button class="logo_change" onclick="nextlogo()">-&gt;</button>
+            </div>
+            <div id="search">
+                <input style="height: 50px; width: 300px; font-size: 30px;" id="searchbar" type="text" placeholder="Search the web">
+                <button onclick="search()" id="searchenter" style="height: 50px; width: 120px; font-size: 30px;">Search</button>
+            </div>
+        </div>
+        <div id="bottombar">
+            <a class="link" href="https://github.com">Github</a>
+            <a class="link" href="https://scratch.mit.edu">Scratch</a>
+            <a class="link" href="https://monkeytype.com">Monkeytype</a>
+            <a class="link" href="https://w3schools.com">w3schools</a>
+            |
+            <a class="link" href="https://aio.edu.au/sample/">AIO Samples</a>
+            <a class="link" href="https://orac2.info/accounts/login/">Orac2 Coding</a>
+            <a class="link" href="https://enrichedmaths.maths.uwa.edu.au/wajo/qnsandsolns/">WAJO Practice</a>
+            <a class="link" href="chrome://chrome-urls/">Chrome Internals</a>
+        </div>
+    </body>
+</head>
