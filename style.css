@@ -1,0 +1,47 @@
+            #topbar {
+                position: fixed;
+                top: 0px;
+                width: 100%;
+            }
+            .link {
+                color: rgb(131, 172, 237);
+                text-decoration: none;
+                margin: 20px;
+            }
+            body {
+                background-color: rgb(157, 201, 228);
+            }
+            .logo {
+                color: rgb(131, 172, 237);
+                font-size: 50px;
+            }
+            #main {
+                position: fixed;
+                top: 50px;
+            }
+            #search {
+                position: fixed;
+                top: 50%;
+                left: 35%;
+            }
+            #main_logo {
+                position: fixed;
+                top: 30%;
+                left: 37%;
+            }
+            #logo_buttons {
+                position: fixed;
+                top: 45%;
+                left: 45%;
+            }
+            .logo_change {
+                border-radius: 50%;
+                border: none;
+            }
+            #bottombar {
+                position: fixed;
+                top: 95%;
+            }
+            #searchbar, #searchenter {
+                border-radius: 25px;
+            }
