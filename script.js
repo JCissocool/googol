@@ -8,7 +8,16 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         })
         function search() {
-            location.replace('https://www.google.com/search?q='+document.getElementById('searchbar').value)
+            specialSites = {'keyword':'URL to go on'}
+            if(specialSites.keys().includes(document.getElementById('searchbar').value)) {
+                        location.replace(specialSites.values()[specialSites.keys().findIndex(document.getElementById('searchbar').value)])
+            } else {
+                        if(!(document.getElementById('searchbar').value.includes('.')||document.getElementById('searchbar').value.includes(':'))) {
+                                    location.replace('https://www.google.com/search?q='+document.getElementById('searchbar').value)
+                        } else {
+                                    location.replace(document.getElementById('searchbar').value)
+                        }
+            }
         }
         function updatelogos() {
             for(let i = 0; i < logos.length; i++) {
