@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
             for(let i = 0; i < logos.length; i++) {
                 logos[i].innerHTML = logo
             }
-            document.getElementById('title').innerText = logo
         }
         function prevlogo() {
             logo = Logos[logoNumber-1]
